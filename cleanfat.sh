@@ -17,5 +17,5 @@ echo "	" >> tasktime.log
 # I really don't why i made this fancy clamav shell script
 # I guess to see if the server shuts down at any point
 # also to see if it ran at all and how long it takes
-# the crontab runs at midnight every day
-# this script is for a linx-server
+# the crontab runs at midnight every day for a linx-server
+# the source code for that is here https://github.com/andreimarcu/linx-server
