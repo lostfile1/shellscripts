@@ -2,8 +2,8 @@
 
 clamscan -r --remove /home/linx/files/
 clamscan -r --remove /home/linx/meta/
-find /home/linx/files/*  -mtime +1 -type f -delete
-find /home/linx/meta/*  -mtime +1 -type f -delete
+find /home/linx/files/* -mtime +1 -type f -exec rm {} \;
+find /home/linx/meta/* -mtime +1 -type f -exec rm {} \;
 echo "Scan Done At"  >> tasktime.log
 echo "------------"  >> tasktime.log
 echo "   " >> tasktime.log
