@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# this script is for backing up my databases 
+# this script is for backing up my databases for postgresql
 # it runs on the first day of the month and packs it into a tar file
 
 pg_dump synapse > synapse-$(date +%m).sql
