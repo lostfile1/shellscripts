@@ -1,5 +1,5 @@
 
-# My bashrc file for arch 
+# My bashrc file for arch laptop
 
 [[ $- != *i* ]] && return
 
